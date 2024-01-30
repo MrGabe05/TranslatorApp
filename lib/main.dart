@@ -178,35 +178,6 @@ class _TranslationAppState extends State<TranslationApp> {
                 style: const TextStyle(color: Colors.white, fontSize: 20),
               ),
               const SizedBox(height: 40),
-              InkWell(
-                onTap: () {
-                  if (!_isListening) {
-                    startListening();
-                  } else {
-                    stopListening();
-                  }
-                },
-                child: Opacity(
-                  opacity: _buttonOpacity,
-                  child: Container(
-                    width: 150.0,
-                    height: 150.0,
-                    decoration: BoxDecoration(
-                      shape: BoxShape.circle,
-                      border: Border.all(color: Colors.white, width: 2.0),
-                      color: Colors.grey,
-                    ),
-                    child: const Center(
-                      child: Icon(
-                        Icons.mic,
-                        color: Colors.white,
-                        size: 60.0,
-                      ),
-                    ),
-                  ),
-                ),
-              ),
-              const SizedBox(height: 10),
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 8.0),
                 child: Row(
