@@ -1,16 +1,18 @@
-# voicetranslator
+# Real-Time Voice Translation App
 
-A new Flutter project.
+This Flutter application provides real-time voice translation capabilities, automatically detecting and translating spoken language during conversations. It is designed to facilitate communication across language barriers, making it ideal for travelers, business meetings, and social interactions.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Real-time voice translation between multiple languages.
+- Automatic voice detection to identify the language being spoken.
+- User-friendly interface for seamless interaction.
+- Support for offline translation for selected languages.
+- Customizable language settings.
 
-A few resources to get you started if this is your first Flutter project:
+## Technologies Used
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Framework**: Flutter
+- **Programming Language**: Dart
+- **APIs**: Speech Recognition API
+- **Other Libraries**: speech_to_text for voice recognition
